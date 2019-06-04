@@ -1,0 +1,47 @@
+{
+    "algo": "cryptonight",
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 8080,
+	    "tls": true
+        }
+    ],
+
+"tls": {
+    "cert": "fullchain.pem",
+    "cert_key": "privkey.pem",
+    "protocols": null,
+    "ciphers": null,
+    "ciphersuites": null
+},
+
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 0,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 75,
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:3333",
+            "user": "491mJ3wzFmCKXVr4ZdGgPLHHXN1eeRf2ehLqnB4A3Yd5ekjGWH5sFr1djrzWGuUKeZgYjdEeTRL4td831Vqz9SdFC4hq3vX+4444",
+            "pass": "s3",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 1,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "syslog": false,
+    "threads": null
+}
