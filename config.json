@@ -29,7 +29,7 @@
     "pools": [
         {
             "url": "pool.supportxmr.com:3333",
-            "user": "491mJ3wzFmCKXVr4ZdGgPLHHXN1eeRf2ehLqnB4A3Yd5ekjGWH5sFr1djrzWGuUKeZgYjdEeTRL4td831Vqz9SdFC4hq3vX+4444",
+            "user": "",
             "pass": "s3",
             "keepalive": true,
             "nicehash": false,
